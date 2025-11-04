@@ -1,0 +1,327 @@
+{
+    "totalMark": 17,
+    "wsosSections": {
+        "1": "Work organization and management",
+        "2": "Communication and interpersonal skills",
+        "3": "Design implementation",
+        "4": "Front-end development",
+        "5": "Back-end development"
+    },
+    "subCriterions": [
+        {
+            "name": "Website Layout",
+            "aspects": [
+                {
+                    "type": "judgement",
+                    "description": "Common website elements (header, navigation, footer) are responsive",
+                    "maxMark": 0.5,
+                    "wsosSection": 3,
+                    "judgementScoreDescription": [
+                        "All common elements are not responsive at all",
+                        "At least one common element is responsive when changing between the defined viewports",
+                        "All common elements look good on the defined viewports, but not between them",
+                        "When scaling the browser between 360x640 and 1920x1080 (not just the defined viewports), all common elements always responds very well (no horizontal scrolling, everything readable, good breakpoints)"
+                    ]
+                },
+                {
+                    "type": "judgement",
+                    "description": "Pages (Homepage, Bicycle Page, Pricing, FAQ) are responsive",
+                    "maxMark": 1,
+                    "wsosSection": 3,
+                    "judgementScoreDescription": [
+                        "All pages are not responsive at all",
+                        "At least one page is responsive when changing between the defined viewports",
+                        "All pages look good on the defined viewports, but not between them",
+                        "When scaling the browser between 360x640 and 1920x1080 (not just the defined viewports), all pages always responds very well (no horizontal scrolling, everything readable, good breakpoints)"
+                    ]
+                },
+                {
+                    "type": "measurement",
+                    "description": "Header, Navigation, and Footer are on all pages",
+                    "maxMark": 0.5,
+                    "wsosSection": 3,
+                    "extraDescription": "Header, Navigation, and Footer elements are on all pages and looking the same on all pages (except highlighting of the current active link is allowed)",
+                    "calculation": {
+                        "type": "pass-or-fail"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Website design",
+            "aspects": [
+                {
+                    "type": "measurement",
+                    "description": "Home page contains required information",
+                    "maxMark": 0.5,
+                    "wsosSection": 3,
+                    "extraDescription": "Company information, product image, Banner, CTA",
+                    "calculation": {
+                        "type": "pass-or-fail"
+                    }
+                },
+                {
+                    "type": "measurement",
+                    "description": "Information switching is carried out using tabs",
+                    "maxMark": 0.5,
+                    "wsosSection": 3,
+                    "calculation": {
+                        "type": "pass-or-fail"
+                    }
+                },
+                {
+                    "type": "judgement",
+                    "description": "A snap effect is used when scrolling or switching the banner to align the slides",
+                    "maxMark": 1,
+                    "wsosSection": 3,
+                    "judgementScoreDescription": [
+                        "No snap effect was used",
+                        "The snap effect is very simple and does not always work correctly",
+                        "The snap effect improves perception and usability",
+                        "The snap effect provides a smooth interaction, creates a good user experience, and supports the banner's objective"
+                    ]
+                },
+                {
+                    "type": "judgement",
+                    "description": "Home page design",
+                    "maxMark": 1,
+                    "wsosSection": 3,
+                    "judgementScoreDescription": [
+                        "Not implemented or is not styled",
+                        "Page has basic styling implemented",
+                        "Catches the users attention (sells the product well), but the design is not always polished or clear",
+                        "Has a clear and polished design, it is very clear to the user what the product is about"
+                    ]
+                },
+                {
+                    "type": "measurement",
+                    "description": "Bicycle Page contains required information",
+                    "maxMark": 0.5,
+                    "wsosSection": 3,
+                    "extraDescription": "List of at least 5 bicycles ",
+                    "calculation": {
+                        "type": "pass-or-fail"
+                    }
+                },
+                {
+                    "type": "measurement",
+                    "description": "Each bicycle has a model, description, image and rating",
+                    "maxMark": 0.5,
+                    "wsosSection": 3,
+                    "calculation": {
+                        "type": "pass-or-fail"
+                    }
+                },
+                {
+                    "type": "judgement",
+                    "description": "Bicycle Page design",
+                    "maxMark": 1,
+                    "wsosSection": 3,
+                    "judgementScoreDescription": [
+                        "Not implemented or is not styled",
+                        "Page has basic styling implemented",
+                        "Shows the required information in a well structured and clean way, but the design is not always polished",
+                        "Has a clear and polished design, it is very clear to the user what the product is about"
+                    ]
+                },
+                {
+                    "type": "measurement",
+                    "description": "Pricing page contains required information",
+                    "maxMark": 0.5,
+                    "wsosSection": 3,
+                    "extraDescription": "3 tariffs are displayed on the page",
+                    "calculation": {
+                        "type": "pass-or-fail"
+                    }
+                },
+                {
+                    "type": "judgement",
+                    "description": "Pricing page design",
+                    "maxMark": 1,
+                    "wsosSection": 3,
+                    "judgementScoreDescription": [
+                        "Not implemented or is not styled",
+                        "Page has basic styling implemented",
+                        "Explains the pricing well in an understandable way, but the design is not always polished",
+                        "Has a clear and polished design, it is very clear to the user how the pricing works"
+                    ]
+                },
+                {
+                    "type": "measurement",
+                    "description": "FAQ",
+                    "maxMark": 0.5,
+                    "wsosSection": 3,
+                    "extraDescription": "at least 5 questions with answers are displayed",
+                    "calculation": {
+                        "type": "pass-or-fail"
+                    }
+                },
+                {
+                    "type": "measurement",
+                    "description": "The questions are implemented with dropdown answers.",
+                    "maxMark": 0.5,
+                    "wsosSection": 3,
+                    "calculation": {
+                        "type": "pass-or-fail"
+                    }
+                },
+                {
+                    "type": "judgement",
+                    "description": "FAQ design",
+                    "maxMark": 1,
+                    "wsosSection": 3,
+                    "judgementScoreDescription": [
+                        "Not implemented or is not styled",
+                        "Page has basic styling implemented",
+                        "Shows the required information in a well structured and clean way, but the design is not always polished",
+                        "Has a clear and polished design"
+                    ]
+                },
+                {
+                    "type": "measurement",
+                    "description": "Header includes a company name",
+                    "maxMark": 0.5,
+                    "wsosSection": 3,
+                    "extraDescription": "The header includes a company name in form of text or logo",
+                    "calculation": {
+                        "type": "pass-or-fail"
+                    }
+                },
+                {
+                    "type": "judgement",
+                    "description": "Navigation contains easily accessible links",
+                    "maxMark": 0.5,
+                    "wsosSection": 3,
+                    "judgementScoreDescription": [
+                        "The navigation does not include all links",
+                        "The navigation includes all links: home, product, pricing, team",
+                        "All links are easily accessible and good looking",
+                        "The navigation design feels clean and modern and it is clear on which page the user currently is"
+                    ]
+                },
+                {
+                    "type": "measurement",
+                    "description": "Footer includes copyright notice",
+                    "maxMark": 0.5,
+                    "wsosSection": 3,
+                    "extraDescription": "The footer includes a copyright notice",
+                    "calculation": {
+                        "type": "pass-or-fail"
+                    }
+                },
+                {
+                    "type": "judgement",
+                    "description": "Color palette is suitable",
+                    "maxMark": 0.5,
+                    "wsosSection": 3,
+                    "judgementScoreDescription": [
+                        "Colors do not match at all",
+                        "Colors are simple but do not set accents",
+                        "Color palette matches the use case and sets accents",
+                        "Color palette matches the use case, sets accents, and is outstanding"
+                    ]
+                },
+                {
+                    "type": "judgement",
+                    "description": "Use of whitespace",
+                    "maxMark": 0.5,
+                    "wsosSection": 3,
+                    "judgementScoreDescription": [
+                        "Use of nothing, little or lots of white space strongly impairs the readability and identifiation of the elements and content",
+                        "Many problems or inconsistency can be found in the use of white space",
+                        "Just a few problems or inconsistency can be found in the use of white space",
+                        "Excellent use of white space permit an easy identification of elements and content"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Standards",
+            "aspects": [
+                {
+                    "type": "judgement",
+                    "description": "Accessibility standards",
+                    "maxMark": 1.5,
+                    "wsosSection": 3,
+                    "judgementScoreDescription": [
+                        "The axe browser extension reports more than 3 violations per implemented page",
+                        "The axe browser extension reports max 3 violations per implemented page",
+                        "The axe browser extension reports max 2 violations per implemented page",
+                        "The axe browser extension reports no violations on all pages and all pages are implemented"
+                    ]
+                },
+                {
+                    "type": "judgement",
+                    "description": "SEO",
+                    "maxMark": 0.5,
+                    "wsosSection": 3,
+                    "judgementScoreDescription": [
+                        "No SEO best practices implemented",
+                        "Correct usage of heading tags (one h1, correct hierarchy) and some semantic tags (<header>, <nav>, <main>, <footer>, <article> etc instead of just divs) on some pages",
+                        "Compelling title tag and meta tags for some pages",
+                        "Compelling title tag and meta tags for all pages, always used heading tags correctly, and always used semantic tags where appropriate on all pages"
+                    ]
+                },
+                {
+                    "type": "judgement",
+                    "description": "W3C HTML validations",
+                    "maxMark": 0.5,
+                    "wsosSection": 3,
+                    "judgementScoreDescription": [
+                        "The W3C validator reports more than 3 HTML errors per implemented page",
+                        "The W3C validator reports max 3 HTML errors per implemented page",
+                        "The W3C validator reports max 2 HTML errors per implemented page",
+                        "The W3C validator reports no HTML errors on all pages and all pages are implemented"
+                    ]
+                },
+                {
+                    "type": "judgement",
+                    "description": "W3C CSS validations",
+                    "maxMark": 0.5,
+                    "wsosSection": 3,
+                    "judgementScoreDescription": [
+                        "The W3C validator reports more than 3 CSS errors per implemented page",
+                        "The W3C validator reports max 3 CSS errors per implemented page",
+                        "The W3C validator reports max 2 CSS errors per implemented page",
+                        "The W3C validator reports no CSS errors on all pages and all pages are implemented"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Organization",
+            "aspects": [
+                {
+                    "type": "judgement",
+                    "description": "Cross browser compatibility",
+                    "maxMark": 0.5,
+                    "wsosSection": 3,
+                    "judgementScoreDescription": [
+                        "The website is completely broken on either Firefox or Chrome",
+                        "There are some major differences or whole sections look different",
+                        "There are some minor differences but it mostly looks the same",
+                        "The website looks exactly the same in Chrome and Firefox (except some unsolvable browser specific differences)"
+                    ]
+                },
+                {
+                    "type": "measurement",
+                    "description": "No server-side or client-side framework is used",
+                    "maxMark": 0.25,
+                    "wsosSection": 2,
+                    "calculation": {
+                        "type": "pass-or-fail"
+                    }
+                },
+                {
+                    "type": "measurement",
+                    "description": "Home page is reachable at the index.html",
+                    "maxMark": 0.25,
+                    "wsosSection": 2,
+                    "calculation": {
+                        "type": "pass-or-fail"
+                    }
+                }
+            ]
+        }
+    ]
+}
