@@ -4,21 +4,20 @@
   "displayName": "Bicycle Rental Website (VelOrda)",
   "description": "The task is to build a static website using only HTML and CSS for a bicycle rental company called VelOrda. The website promotes cycling in the city and provides information about available bicycles, pricing plans, and frequently asked questions.",
   "url": "https://github.com/marketable-it-skills/s17-ts2025-module_a-static-website-design",
-  "skillDomainIds": [
-    1
-  ],
+  "skillDomainIds": [1],
   "competition": "TurkicSkills 2025",
   "estTime": 3,
   "authors": [
     {
-      "name": "Agbay",
-      "url": "https://github.com/agbay"
+      "name": "Agybay Mukhametzhan",
+      "url": "https://github.com/agybay-it"
+    },
+    {
+      "name": "Denis Valentinovich",
+      "url": "https://github.com/denisvalentinovich"
     }
   ],
-  "technologies": [
-    "HTML",
-    "CSS"
-  ],
+  "technologies": ["HTML", "CSS"],
   "tags": [
     "frontend",
     "design",
